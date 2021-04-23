@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: game - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD829.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fr"Release/" /Fp"Release/game.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Study\Now\完成\可视化\实训\3114000759-李钰钦-可视化实训\基于引擎的射击游戏——GAME\winmain.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD829.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD82A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib dxguid.lib winmm.lib dinput8.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/game.pdb" /machine:I386 /out:"Release/game.exe" 
+".\Release\audiosystem.obj"
+".\Release\camera.obj"
+".\Release\engine.obj"
+".\Release\entity.obj"
+".\Release\explosion.obj"
+".\Release\font.obj"
+".\Release\gui.obj"
+".\Release\InputSystem.obj"
+".\Release\md2.obj"
+".\Release\oglwindow.obj"
+".\Release\ogro.obj"
+".\Release\Particles.obj"
+".\Release\player.obj"
+".\Release\rocket.obj"
+".\Release\simpengine.obj"
+".\Release\sod.obj"
+".\Release\terrain.obj"
+".\Release\texture.obj"
+".\Release\winmain.obj"
+".\Release\world.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD82A.tmp"
+<h3>Output Window</h3>
+Compiling...
+winmain.cpp
+E:\Study\Now\完成\可视化\实训\3114000759-李钰钦-可视化实训\基于引擎的射击游戏——GAME\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPDA0E.tmp" with contents
+[
+/nologo /o"Release/game.bsc" 
+".\Release\audiosystem.sbr"
+".\Release\camera.sbr"
+".\Release\engine.sbr"
+".\Release\entity.sbr"
+".\Release\explosion.sbr"
+".\Release\font.sbr"
+".\Release\gui.sbr"
+".\Release\InputSystem.sbr"
+".\Release\md2.sbr"
+".\Release\oglwindow.sbr"
+".\Release\ogro.sbr"
+".\Release\Particles.sbr"
+".\Release\player.sbr"
+".\Release\rocket.sbr"
+".\Release\simpengine.sbr"
+".\Release\sod.sbr"
+".\Release\terrain.sbr"
+".\Release\texture.sbr"
+".\Release\winmain.sbr"
+".\Release\world.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPDA0E.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+game.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
